@@ -1,0 +1,100 @@
+:root {
+  --body-font: "Poppins", sans-serif;
+  --heading: 24px;
+  --sub-heading: 20px;
+  --sub-sub-heading: 18px;
+  --sub-heading-weight: 550;
+  --sub-sub-heading-weight: 550;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --base-color: #475569;
+  --button-color: #4338ca;
+  --border-light: #eaeaec;
+  --color-discount: #ef4444;
+  --background-light-color: #eef2ff;
+}
+body {
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.bill-card-box {
+  border: 1px solid black;
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: 0.5rem;
+}
+.bill-details-box {
+  /* border: 1px solid black; */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.order-text {
+  font-size: var(--heading);
+  font-weight: var(--sub-heading-weight);
+  margin-top: 1rem;
+}
+
+.order-tag {
+  color: var(--base-color);
+  margin: 1rem;
+}
+
+.bill-plan-box {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  background-color: var(--background-light-color);
+  border-radius: 0.3rem;
+}
+
+.payment-link {
+  display: block;
+  margin-top: 1.5rem;
+  border: 1px solid black;
+  width: fit-content;
+  text-decoration: none;
+  padding: 0.5rem 3.7rem;
+  background-color: var(--button-color);
+
+  border-radius: 0.3rem;
+}
+.p-l {
+  text-decoration: none;
+  color: var(--background-light-color);
+  font-size: var(--sub-sub-heading);
+}
+.cancel-order {
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+.c-o {
+  text-decoration: none;
+  font-size: var(--sub-sub-heading);
+}
+
+.plan-time {
+  font-weight: 550;
+  padding-top: 0.2rem;
+}
+.plan-cost {
+  color: var(--base-color);
+  font-size: 15px;
+  padding-top: 0.2rem;
+}
+
+.change-link {
+  margin: 0.5rem;
+}
