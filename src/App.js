@@ -38,6 +38,7 @@ function Component() {
   return (
     <>
       <div className="bill-card-box">
+        <img className="imag" src ="https://media.istockphoto.com/photos/young-handsome-african-man-wearing-headphones-listening-to-music-and-picture-id1320722438?b=1&k=20&m=1320722438&s=170667a&w=0&h=7bJUiK2c6k3GaWIeUOjaJw0B090nxqlGYU_vhK300WY="/>
         <div className="bill-details-box">
           <div className="order-text">{orderText} </div>
           <p className="order-tag">{orderTag}</p>

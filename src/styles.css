@@ -8,7 +8,7 @@
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --base-color: #475569;
-  --button-color: #4338ca;
+  --button-color: #6b21a8;
   --border-light: #eaeaec;
   --color-discount: #ef4444;
   --background-light-color: #eef2ff;
@@ -17,11 +17,15 @@ body {
   margin-top: 10px;
   box-sizing: border-box;
 }
+.imag{
+  width: 300px;
+  height: 150px
+}
 
 .bill-card-box {
   border: 1px solid black;
   width: 300px;
-  height: 400px;
+  height: 450px;
   position: relative;
   text-align: center;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
